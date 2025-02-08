@@ -1,0 +1,415 @@
+/* General/Default Styles */
+body {
+  background-color: #b4e4d3;
+}
+
+h1 {
+  text-align: center;
+}
+
+/* Arrow Styles */
+#arrow-button {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  position: fixed;
+  top: 94%;
+  left: 96%;
+  text-align: center;
+  background-color: #2af9b1;
+  border: 1px solid #2af9b1;
+  z-index: 1000;
+}
+
+/* Dropdown Styles */
+.drop-down {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 40px;
+}
+
+fieldset {
+  border-color: #2af9b1;
+}
+
+#go-button {
+  background-color: #7cfbcf;
+  border: 1px solid #000;
+  padding: 10px 10px;
+  border-radius: 20%;
+  cursor: pointer;
+}
+
+#get-item-button {
+  background-color: #7cfbcf;
+  border: 1px solid #000;
+  padding: 12px 12px;
+  border-radius: 4%;
+  cursor: pointer;
+}
+
+/* Country/Season Styles */
+#country-error,
+#season-error {
+  color: red;
+}
+.canada-fall-season-cloth,
+.canada-fall-season-food,
+.canada-spring-season-cloth,
+.canada-spring-season-food,
+.canada-summer-season-cloth,
+.canada-summer-season-food,
+.canada-winter-season-cloth,
+.canada-winter-season-food,
+.france-fall-season-cloth,
+.france-fall-season-food,
+.france-spring-season-cloth,
+.france-spring-season-food,
+.france-summer-season-cloth,
+.france-summer-season-food,
+.france-winter-season-cloth,
+.france-winter-season-food,
+.germany-fall-season-cloth,
+.germany-fall-season-food,
+.germany-spring-season-cloth,
+.germany-spring-season-food,
+.germany-summer-season-cloth,
+.germany-summer-season-food,
+.germany-winter-season-cloth,
+.germany-winter-season-food,
+.usa-fall-season-cloth,
+.usa-fall-season-food,
+.usa-spring-season-cloth,
+.usa-spring-season-food,
+.usa-summer-season-cloth,
+.usa-summer-season-food,
+.usa-winter-season-cloth,
+.usa-winter-season-food {
+  display: none;
+}
+
+#canada-content,
+#france-content,
+#germany-content,
+#USA-content {
+  display: none;
+}
+
+.canada-fall-season-categories,
+.canada-fall-season-food-items,
+.canada-spring-season-categories,
+.canada-spring-season-food-items,
+.canada-summer-season-categories,
+.canada-summer-season-food-items,
+.canada-winter-season-categories,
+.canada-winter-season-food-items,
+.france-fall-season-categories,
+.france-fall-season-food-items,
+.france-spring-season-categories,
+.france-spring-season-food-items,
+.france-summer-season-categories,
+.france-summer-season-food-items,
+.france-winter-season-categories,
+.france-winter-season-food-items,
+.germany-fall-season-categories,
+.germany-fall-season-food-items,
+.germany-spring-season-categories,
+.germany-spring-season-food-items,
+.germany-summer-season-categories,
+.germany-summer-season-food-items,
+.germany-winter-season-categories,
+.germany-winter-season-food-items,
+.usa-fall-season-categories,
+.usa-fall-season-food-items,
+.usa-spring-season-categories,
+.usa-spring-season-food-items,
+.usa-summer-season-categories,
+.usa-summer-season-food-items,
+.usa-winter-season-categories,
+.usa-winter-season-food-items {
+  display: flex;
+  justify-content: space-around;
+  gap: 1em;
+  text-align: center;
+}
+
+/* Cloth img Styles */
+.fall-cloth-1 img,
+.fall-cloth-2 img,
+.fall-cloth-3 img,
+.fall-cloth-4 img,
+.fall-cloth-5 img,
+.fall-food-1 img,
+.fall-food-2 img,
+.fall-food-3 img,
+.fall-food-4 img,
+.fall-food-5 img,
+.spring-cloth-1 img,
+.spring-cloth-2 img,
+.spring-cloth-3 img,
+.spring-cloth-4 img,
+.spring-cloth-5 img,
+.spring-food-1 img,
+.spring-food-2 img,
+.spring-food-3 img,
+.spring-food-4 img,
+.spring-food-5 img,
+.summer-cloth-1 img,
+.summer-cloth-2 img,
+.summer-cloth-3 img,
+.summer-cloth-4 img,
+.summer-cloth-5 img,
+.summer-food-1 img,
+.summer-food-2 img,
+.summer-food-3 img,
+.summer-food-4 img,
+.summer-food-5 img,
+.winter-cloth-1 img,
+.winter-cloth-2 img,
+.winter-cloth-3 img,
+.winter-cloth-4 img,
+.winter-cloth-5 img,
+.winter-food-1 img,
+.winter-food-2 img,
+.winter-food-3 img,
+.winter-food-4 img,
+.winter-food-5 img {
+  width: 80%;
+}
+
+.fall-cloth-1:hover {
+  cursor: pointer;
+}
+
+/* Selected product Styles */
+#get-item-button {
+  display: block;
+  margin: 0 auto;
+  visibility: hidden;
+  margin-top: 20px;
+}
+
+#display-item {
+  display: none;
+  gap: 1em;
+}
+#selected-image {
+  margin-top: 25px;
+}
+
+#selected-image img {
+  width: 60%;
+}
+
+/* Dynamic element Styles */
+#canada-fall-cloth-1,
+#canada-fall-cloth-2,
+#canada-fall-cloth-3,
+#canada-fall-cloth-4,
+#canada-fall-cloth-5,
+#canada-fall-food-1,
+#canada-fall-food-2,
+#canada-fall-food-3,
+#canada-fall-food-4,
+#canada-fall-food-5,
+#canada-spring-cloth-1,
+#canada-spring-cloth-2,
+#canada-spring-cloth-3,
+#canada-spring-cloth-4,
+#canada-spring-cloth-5,
+#canada-spring-food-1,
+#canada-spring-food-2,
+#canada-spring-food-3,
+#canada-spring-food-4,
+#canada-spring-food-5,
+#canada-summer-cloth-1,
+#canada-summer-cloth-2,
+#canada-summer-cloth-3,
+#canada-summer-cloth-4,
+#canada-summer-cloth-5,
+#canada-summer-food-1,
+#canada-summer-food-2,
+#canada-summer-food-3,
+#canada-summer-food-4,
+#canada-summer-food-5,
+#canada-winter-cloth-1,
+#canada-winter-cloth-2,
+#canada-winter-cloth-3,
+#canada-winter-cloth-4,
+#canada-winter-cloth-5,
+#canada-winter-food-1,
+#canada-winter-food-2,
+#canada-winter-food-3,
+#canada-winter-food-4,
+#canada-winter-food-5,
+#france-fall-cloth-1,
+#france-fall-cloth-2,
+#france-fall-cloth-3,
+#france-fall-cloth-4,
+#france-fall-cloth-5,
+#france-fall-food-1,
+#france-fall-food-2,
+#france-fall-food-3,
+#france-fall-food-4,
+#france-fall-food-5,
+#france-spring-cloth-1,
+#france-spring-cloth-2,
+#france-spring-cloth-3,
+#france-spring-cloth-4,
+#france-spring-cloth-5,
+#france-spring-food-1,
+#france-spring-food-2,
+#france-spring-food-3,
+#france-spring-food-4,
+#france-spring-food-5,
+#france-summer-cloth-1,
+#france-summer-cloth-2,
+#france-summer-cloth-3,
+#france-summer-cloth-4,
+#france-summer-cloth-5,
+#france-summer-food-1,
+#france-summer-food-2,
+#france-summer-food-3,
+#france-summer-food-4,
+#france-summer-food-5,
+#france-winter-cloth-1,
+#france-winter-cloth-2,
+#france-winter-cloth-3,
+#france-winter-cloth-4,
+#france-winter-cloth-5,
+#france-winter-food-1,
+#france-winter-food-2,
+#france-winter-food-3,
+#france-winter-food-4,
+#france-winter-food-5,
+#germany-fall-cloth-1,
+#germany-fall-cloth-2,
+#germany-fall-cloth-3,
+#germany-fall-cloth-4,
+#germany-fall-cloth-5,
+#germany-fall-food-1,
+#germany-fall-food-2,
+#germany-fall-food-3,
+#germany-fall-food-4,
+#germany-fall-food-5,
+#germany-spring-cloth-1,
+#germany-spring-cloth-2,
+#germany-spring-cloth-3,
+#germany-spring-cloth-4,
+#germany-spring-cloth-5,
+#germany-spring-food-1,
+#germany-spring-food-2,
+#germany-spring-food-3,
+#germany-spring-food-4,
+#germany-spring-food-5,
+#germany-summer-cloth-1,
+#germany-summer-cloth-2,
+#germany-summer-cloth-3,
+#germany-summer-cloth-4,
+#germany-summer-cloth-5,
+#germany-summer-food-1,
+#germany-summer-food-2,
+#germany-summer-food-3,
+#germany-summer-food-4,
+#germany-summer-food-5,
+#germany-winter-cloth-1,
+#germany-winter-cloth-2,
+#germany-winter-cloth-3,
+#germany-winter-cloth-4,
+#germany-winter-cloth-5,
+#germany-winter-food-1,
+#germany-winter-food-2,
+#germany-winter-food-3,
+#germany-winter-food-4,
+#germany-winter-food-5,
+#usa-fall-cloth-1,
+#usa-fall-cloth-2,
+#usa-fall-cloth-3,
+#usa-fall-cloth-4,
+#usa-fall-cloth-5,
+#usa-fall-food-1,
+#usa-fall-food-2,
+#usa-fall-food-3,
+#usa-fall-food-4,
+#usa-fall-food-5,
+#usa-spring-cloth-1,
+#usa-spring-cloth-2,
+#usa-spring-cloth-3,
+#usa-spring-cloth-4,
+#usa-spring-cloth-5,
+#usa-spring-food-1,
+#usa-spring-food-2,
+#usa-spring-food-3,
+#usa-spring-food-4,
+#usa-spring-food-5,
+#usa-summer-cloth-1,
+#usa-summer-cloth-2,
+#usa-summer-cloth-3,
+#usa-summer-cloth-4,
+#usa-summer-cloth-5,
+#usa-summer-food-1,
+#usa-summer-food-2,
+#usa-summer-food-3,
+#usa-summer-food-4,
+#usa-summer-food-5,
+#usa-winter-cloth-1,
+#usa-winter-cloth-2,
+#usa-winter-cloth-3,
+#usa-winter-cloth-4,
+#usa-winter-cloth-5,
+#usa-winter-food-1,
+#usa-winter-food-2,
+#usa-winter-food-3,
+#usa-winter-food-4,
+#usa-winter-food-5 {
+  position: relative;
+}
+
+/* Info button Styles */
+#info-button {
+  width: 19px;
+  height: 19px;
+  border-radius: 50%;
+  position: absolute;
+  top: 3%;
+  left: 80%;
+  text-align: center;
+  cursor: pointer;
+}
+
+#item-content {
+  display: none;
+  background-color: rgba(34, 34, 34, 0.9);
+  width: 200px;
+  font-size: 10px;
+  position: absolute;
+  top: -40%;
+  left: 20%;
+  padding: 10px 5px;
+  z-index: 1000;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.3);
+  color: white;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#item-content p ul {
+  margin: 0;
+  padding: 0;
+  list-style-position: inside;
+}
+
+#selected-product {
+  display: none;
+}
+
+img {
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+img:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.3);
+}

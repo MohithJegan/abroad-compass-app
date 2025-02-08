@@ -1,0 +1,62 @@
+ABROAD COMPASS APP
+
+HOW THIS APP WORKS
+-------------------
+
+1. Country & Season Selection:
+--------------------------------
+-> Users must select a country and a season (fall, spring, summer, winter) to view relevant products (clothes and food).
+-> If the user fails to select either or both, an error message will be displayed after they click on "Go" button.
+
+2. Dynamic Content Rendering:
+-------------------------------
+-> After selecting a country and season, 5 images for the selected season and country will be displayed.
+-> The countries available are: Canada, France, Germany, and the USA.
+-> Each country and season combination displays 5 images with the corresponding clothes and food.
+
+3. Product Details:
+--------------------
+-> Each image represents a product (clothing or food) with:
+    -> Product name
+    -> Price range
+-> A small info icon appears on the right side of the image for each product.
+-> On hovering the info icon, a tooltip will display the benefits of the product.
+
+4. Product Selection:
+----------------------
+-> When the user clicks on a product, it turns green to indicate it has been selected.
+-> A "Get Selected Item" button will pop up after a product is selected.
+-> Users can click the "Get Selected Item" button to view their selected products.
+
+5. Scroll to Top Button:
+--------------------------
+-> An arrow button at the bottom right allows the user to scroll to the top of the page.
+
+PROJECT STRUCTURE
+-------------------
+
+-> index.html: The main HTML file, which serves as a template. The actual content is dynamically generated using JavaScript through the Document Object Model (DOM).
+-> css/style.css: The stylesheet containing all the design elements for the webpage.
+-> js/ folder: Contains all JavaScript files:
+-> index.js: The main JavaScript file where the program flow begins.
+-> Country-specific files: These files contain data for clothing and food related to specific countries:
+    -> Canada - canada-cloth.js, canada-food.js
+    -> France - france-cloth.js, france-food.js
+    -> Germany - germany-cloth.js, germany-food.js
+    -> USA - usa-cloth.js, usa-food.js
+
+FIGMA URL
+----------
+
+https://www.figma.com/design/FP5Y0XTF36274oitkn3Q8K/JS-Pet-Project?node-id=0-1&node-type=canvas&t=NcrHzBVUQWNa2wUG-0
+
+CITATIONS
+-----------
+
+-> https://ca.frankandoak.com/collections/women-featured-make-an-outfit-of-it
+-> https://ba-sh.com/ca/en/collection/new-collection/
+-> https://www.madaboutmacarons.com/category/season/autumn-recipes/
+-> https://www.prettylittlething.us/pistachio-fitted-waist-button-detail-blazer-dress.html
+-> https://www.prettylittlething.us/shop-by/season/summer.html?srsltid=AfmBOormZKktZp6bm0Nd1dy8ZGm2kUmb9W5nUH1H0N4kHt6x_U94IqbY
+-> https://www.target.com/s/winter+clothes
+-> https://dairyfarmersofcanada.ca/en/canadian-goodness/recipes/our-recipe-collections

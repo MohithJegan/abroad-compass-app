@@ -1,0 +1,910 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- External linking of CSS -->
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
+    <title>Abroad Compass</title>
+  </head>
+  <body>
+    <!-- Dropdown list for Country -->
+    <header>
+      <!-- Name of the app -->
+      <h1>Abroad Compass App</h1>
+      <button id="arrow-button"><a href="#">&#x2191;</a></button>
+    </header>
+    <div class="drop-down">
+      <!-- Country Dropdown -->
+      <fieldset>
+        <legend>Country</legend>
+        <select name="country" id="country">
+          <option value="country" selected disabled>Select a Country</option>
+        </select>
+        <!-- Country Error -->
+        <div id="country-error"></div>
+      </fieldset>
+      <!-- Season Dropdown -->
+      <fieldset>
+        <legend>Season</legend>
+        <select name="season" id="season">
+          <option value="season" selected disabled>Select a Season</option>
+        </select>
+        <!-- Season Error -->
+        <div id="season-error"></div>
+      </fieldset>
+      <!-- Go Button -->
+      <div class="go-button">
+        <button id="go-button" type="button">Go</button>
+      </div>
+    </div>
+
+    <!-- Canada Content -->
+    <div id="canada-content">
+      <div class="content">
+        <h2>Canada</h2>
+        <ul>
+          <li>
+            Located in North America, it is the second-largest country in the
+            world by land area.
+          </li>
+          <li>
+            Famous for natural landscapes like the Rocky Mountains, Niagara
+            Falls, and vast forests.
+          </li>
+          <li>
+            Multicultural cities such as Toronto, Vancouver, and Montreal offer
+            rich cultural experiences.
+          </li>
+          <li>
+            Known for winter sports like ice hockey and its progressive
+            policies.
+          </li>
+          <li>
+            Shares the longest undefended border in the world with the United
+            States.
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- France Content -->
+    <div id="france-content">
+      <div class="content">
+        <h2>France</h2>
+        <ul>
+          <li>
+            Located in Western Europe, it is renowned for art, fashion, and
+            cuisine.
+          </li>
+          <li>
+            Paris, the capital, houses landmarks like the Eiffel Tower and the
+            Louvre Museum.
+          </li>
+          <li>
+            Known for romantic ambiance, historic castles, and wine regions like
+            Bordeaux and Champagne.
+          </li>
+          <li>Highly influential in global art, history, and gastronomy.</li>
+          <li>One of the most visited countries in the world.</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Germany Content -->
+    <div id="germany-content">
+      <div class="content">
+        <h2>Germany</h2>
+        <ul>
+          <li>
+            Situated in the heart of Europe, celebrated for engineering and
+            innovation.
+          </li>
+          <li>
+            Features diverse landscapes like the Black Forest and Bavarian Alps.
+          </li>
+          <li>
+            Cities like Berlin, Munich, and Frankfurt blend history with
+            modernity.
+          </li>
+          <li>
+            Known for cultural contributions in music, philosophy, and
+            Oktoberfest.
+          </li>
+          <li>Plays a key role in global politics and the European Union.</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- USA Content -->
+    <div id="USA-content">
+      <div class="content">
+        <h2>USA</h2>
+        <ul>
+          <li>Located in North America, it is a vast and diverse country.</li>
+          <li>
+            Known for landmarks like the Grand Canyon, Statue of Liberty, and
+            Hollywood.
+          </li>
+          <li>
+            Features natural beauty from Alaska’s wilderness to Florida’s
+            beaches.
+          </li>
+          <li>
+            Bustling cities like New York, Los Angeles, and Chicago add to its
+            charm.
+          </li>
+          <li>
+            A global leader in entertainment, innovation, and higher education.
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Canada -->
+
+    <!-- Country - Canada & Season - Fall - Cloth Items -->
+    <div class="canada-fall-season-cloth" id="canada-fall-season-wear">
+      <h2>Fall</h2>
+      <ul>
+        <li>September to November</li>
+        <li>
+          Cool temperatures; early fall is pleasant, ranging from 10°C to 20°C
+          (50°F to 68°F).
+        </li>
+        <li>
+          Drops to near freezing by November, with beautiful fall foliage.
+        </li>
+      </ul>
+      <div class="canada-fall-season-collection">
+        <h2>Fall Categories</h2>
+        <div class="canada-fall-season-categories">
+          <!-- Fall cloth - 1 -->
+          <div class="fall-cloth-1" id="canada-fall-cloth-1"></div>
+          <!-- Fall cloth - 2 -->
+          <div class="fall-cloth-2" id="canada-fall-cloth-2"></div>
+          <!-- Fall cloth - 3 -->
+          <div class="fall-cloth-3" id="canada-fall-cloth-3"></div>
+          <!-- Fall cloth - 4 -->
+          <div class="fall-cloth-4" id="canada-fall-cloth-4"></div>
+          <!-- Fall cloth - 5 -->
+          <div class="fall-cloth-5" id="canada-fall-cloth-5"></div>
+        </div>
+      </div>
+    </div>
+    <!-- Country - Canada & Season - Fall - Food Items -->
+    <div class="canada-fall-season-food" id="canada-fall-season-food-list">
+      <div class="canada-fall-season-food-collection">
+        <h2>Food Suggestions</h2>
+        <div class="canada-fall-season-food-items">
+          <!-- Fall Food - 1 -->
+          <div class="fall-food-1" id="canada-fall-food-1"></div>
+          <!-- Fall Food - 2 -->
+          <div class="fall-food-2" id="canada-fall-food-2"></div>
+          <!-- Fall Food - 3 -->
+          <div class="fall-food-3" id="canada-fall-food-3"></div>
+          <!-- Fall Food - 4 -->
+          <div class="fall-food-4" id="canada-fall-food-4"></div>
+          <!-- Fall Food - 5 -->
+          <div class="fall-food-5" id="canada-fall-food-5"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Country - Canada & Season - Spring - Cloth Items -->
+    <div class="canada-spring-season-cloth" id="canada-spring-season-wear">
+      <h2>Spring</h2>
+      <ul>
+        <li>March to May</li>
+        <li>Starts chilly in March, warming gradually.</li>
+        <li>Temperatures range from 0°C to 15°C (32°F to 59°F).</li>
+        <li>Rain is common, especially in April and May.</li>
+      </ul>
+      <div class="canada-spring-season-collection">
+        <h2>Spring Categories</h2>
+        <div class="canada-spring-season-categories">
+          <!-- Spring cloth - 1 -->
+          <div class="spring-cloth-1" id="canada-spring-cloth-1"></div>
+          <!-- Spring cloth - 2 -->
+          <div class="spring-cloth-2" id="canada-spring-cloth-2"></div>
+          <!-- Spring cloth - 3 -->
+          <div class="spring-cloth-3" id="canada-spring-cloth-3"></div>
+          <!-- Spring cloth - 4 -->
+          <div class="spring-cloth-4" id="canada-spring-cloth-4"></div>
+          <!-- Spring cloth - 5 -->
+          <div class="spring-cloth-5" id="canada-spring-cloth-5"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Country - Canada & Season - Spring - Food Items -->
+    <div class="canada-spring-season-food" id="canada-spring-season-food-list">
+      <div class="canada-spring-season-food-collection">
+        <h2>Food Suggestions</h2>
+        <div class="canada-spring-season-food-items">
+          <!-- Spring Food - 1 -->
+          <div class="spring-food-1" id="canada-spring-food-1"></div>
+          <!-- Spring Food - 2 -->
+          <div class="spring-food-2" id="canada-spring-food-2"></div>
+          <!-- Spring Food - 3 -->
+          <div class="spring-food-3" id="canada-spring-food-3"></div>
+          <!-- Spring Food - 4 -->
+          <div class="spring-food-4" id="canada-spring-food-4"></div>
+          <!-- Spring Food - 5 -->
+          <div class="spring-food-5" id="canada-spring-food-5"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Country - Canada & Season - Summer - Cloth Items -->
+    <div class="canada-summer-season-cloth" id="canada-summer-season-wear">
+      <h2>Summer</h2>
+      <ul>
+        <li>June to August</li>
+        <li>
+          Warm and pleasant, with temperatures typically ranging from 20°C to
+          30°C (68°F to 86°F)
+        </li>
+        <li>Some areas may experience higher temperatures</li>
+      </ul>
+      <div class="canada-summer-season-collection">
+        <h2>Summer Categories</h2>
+        <div class="canada-summer-season-categories">
+          <!-- Summer cloth - 1 -->
+          <div class="summer-cloth-1" id="canada-summer-cloth-1"></div>
+          <!-- Summer cloth - 2 -->
+          <div class="summer-cloth-2" id="canada-summer-cloth-2"></div>
+          <!-- Summer cloth - 3 -->
+          <div class="summer-cloth-3" id="canada-summer-cloth-3"></div>
+          <!-- Summer cloth - 4 -->
+          <div class="summer-cloth-4" id="canada-summer-cloth-4"></div>
+          <!-- Summer cloth - 5 -->
+          <div class="summer-cloth-5" id="canada-summer-cloth-5"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Country - Canada & Season - Summer - Food Items -->
+    <div class="canada-summer-season-food" id="canada-summer-season-food-list">
+      <div class="canada-summer-season-food-collection">
+        <h2>Food Suggestions</h2>
+        <div class="canada-summer-season-food-items">
+          <!-- Summer Food - 1 -->
+          <div class="summer-food-1" id="canada-summer-food-1"></div>
+          <!-- Summer Food - 2 -->
+          <div class="summer-food-2" id="canada-summer-food-2"></div>
+          <!-- Summer Food - 3 -->
+          <div class="summer-food-3" id="canada-summer-food-3"></div>
+          <!-- Summer Food - 4 -->
+          <div class="summer-food-4" id="canada-summer-food-4"></div>
+          <!-- Summer Food - 5 -->
+          <div class="summer-food-5" id="canada-summer-food-5"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Country - Canada & Season - Winter - Cloth Items -->
+    <div class="canada-winter-season-cloth" id="canada-winter-season-wear">
+      <h2>Winter</h2>
+      <ul>
+        <li>December to February</li>
+        <li>Extremely cold, ranging from -5°C to -30°C (23°F to -22°F).</li>
+        <li>Heavy snowfall common.</li>
+      </ul>
+      <div class="canada-winter-season-collection">
+        <h2>Winter Categories</h2>
+        <div class="canada-summer-season-categories">
+          <!-- Winter cloth - 1 -->
+          <div class="winter-cloth-1" id="canada-winter-cloth-1"></div>
+          <!-- Winter cloth - 2 -->
+          <div class="winter-cloth-2" id="canada-winter-cloth-2"></div>
+          <!-- Winter cloth - 3 -->
+          <div class="winter-cloth-3" id="canada-winter-cloth-3"></div>
+          <!-- Winter cloth - 4 -->
+          <div class="winter-cloth-4" id="canada-winter-cloth-4"></div>
+          <!-- Winter cloth - 5 -->
+          <div class="winter-cloth-5" id="canada-winter-cloth-5"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Country - Canada & Season - Winter - Food Items -->
+    <div class="canada-winter-season-food" id="canada-winter-season-food-list">
+      <div class="canada-winter-season-food-collection">
+        <h2>Food Suggestions</h2>
+        <div class="canada-summer-season-food-items">
+          <!-- Winter Food - 1 -->
+          <div class="winter-food-1" id="canada-winter-food-1"></div>
+          <!-- Winter Food - 2 -->
+          <div class="winter-food-2" id="canada-winter-food-2"></div>
+          <!-- Winter Food - 3 -->
+          <div class="winter-food-3" id="canada-winter-food-3"></div>
+          <!-- Winter Food - 4 -->
+          <div class="winter-food-4" id="canada-winter-food-4"></div>
+          <!-- Winter Food - 5 -->
+          <div class="winter-food-5" id="canada-winter-food-5"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- France -->
+
+    <!-- Country - France & Season - Fall - Cloth Items -->
+    <div class="france-fall-season-cloth" id="france-fall-season-wear">
+      <h2>Fall</h2>
+      <ul>
+        <li>September to November</li>
+        <li>
+          Cool temperatures; early fall can be pleasant (10°C to 20°C / 50°F to
+          68°F), but it gets colder by November.
+        </li>
+        <li>Beautiful autumn foliage.</li>
+      </ul>
+      <div class="france-fall-season-collection">
+        <h2>Fall Categories</h2>
+        <div class="france-fall-season-categories">
+          <!-- Fall cloth - 1 -->
+          <div class="fall-cloth-1" id="france-fall-cloth-1"></div>
+          <!-- Fall cloth - 2 -->
+          <div class="fall-cloth-2" id="france-fall-cloth-2"></div>
+          <!-- Fall cloth - 3 -->
+          <div class="fall-cloth-3" id="france-fall-cloth-3"></div>
+          <!-- Fall cloth - 4 -->
+          <div class="fall-cloth-4" id="france-fall-cloth-4"></div>
+          <!-- Fall cloth - 5 -->
+          <div class="fall-cloth-5" id="france-fall-cloth-5"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Country - France & Season - Fall - Food Items -->
+    <div class="france-fall-season-food" id="france-fall-season-food-list">
+      <div class="france-fall-season-food-collection">
+        <h2>Food Suggestions</h2>
+        <div class="france-fall-season-food-items">
+          <!-- Fall Food - 1 -->
+          <div class="fall-food-1" id="france-fall-food-1"></div>
+          <!-- Fall Food - 2 -->
+          <div class="fall-food-2" id="france-fall-food-2"></div>
+          <!-- Fall Food - 3 -->
+          <div class="fall-food-3" id="france-fall-food-3"></div>
+          <!-- Fall Food - 4 -->
+          <div class="fall-food-4" id="france-fall-food-4"></div>
+          <!-- Fall Food - 5 -->
+          <div class="fall-food-5" id="france-fall-food-5"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Country - France & Season - Spring - Cloth Items -->
+    <div class="france-spring-season-cloth" id="france-spring-season-wear">
+      <h2>Spring</h2>
+      <ul>
+        <li>March to May</li>
+        <li>Mild temperatures ranging from 10°C to 20°C (50°F to 68°F).</li>
+        <li>Rain is common, especially in April.</li>
+      </ul>
+      <div class="france-spring-season-collection">
+        <h2>Spring Categories</h2>
+        <div class="france-spring-season-categories">
+          <!-- Spring cloth - 1 -->
+          <div class="spring-cloth-1" id="france-spring-cloth-1"></div>
+          <!-- Spring cloth - 2 -->
+          <div class="spring-cloth-2" id="france-spring-cloth-2"></div>
+          <!-- Spring cloth - 3 -->
+          <div class="spring-cloth-3" id="france-spring-cloth-3"></div>
+          <!-- Spring cloth - 4 -->
+          <div class="spring-cloth-4" id="france-spring-cloth-4"></div>
+          <!-- Spring cloth - 5 -->
+          <div class="spring-cloth-5" id="france-spring-cloth-5"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Country - France & Season - Spring - Food Items -->
+    <div class="france-spring-season-food" id="france-spring-season-food-list">
+      <div class="france-spring-season-food-collection">
+        <h2>Food Suggestions</h2>
+        <div class="france-spring-season-food-items">
+          <!-- Spring Food - 1 -->
+          <div class="spring-food-1" id="france-spring-food-1"></div>
+          <!-- Spring Food - 2 -->
+          <div class="spring-food-2" id="france-spring-food-2"></div>
+          <!-- Spring Food - 3 -->
+          <div class="spring-food-3" id="france-spring-food-3"></div>
+          <!-- Spring Food - 4 -->
+          <div class="spring-food-4" id="france-spring-food-4"></div>
+          <!-- Spring Food - 5 -->
+          <div class="spring-food-5" id="france-spring-food-5"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Country - France & Season - Summer - Cloth Items -->
+    <div class="france-summer-season-cloth" id="france-summer-season-wear">
+      <h2>Summer</h2>
+      <ul>
+        <li>June to August</li>
+        <li>
+          Warm and sunny, with temperatures ranging from 20°C to 30°C (68°F to
+          86°F).
+        </li>
+        <li>Heatwaves can occur in July and August.</li>
+      </ul>
+      <div class="france-summer-season-collection">
+        <h2>Summer Categories</h2>
+        <div class="france-summer-season-categories">
+          <!-- Summer cloth - 1 -->
+          <div class="summer-cloth-1" id="france-summer-cloth-1"></div>
+          <!-- Summer cloth - 2 -->
+          <div class="summer-cloth-2" id="france-summer-cloth-2"></div>
+          <!-- Summer cloth - 3 -->
+          <div class="summer-cloth-3" id="france-summer-cloth-3"></div>
+          <!-- Summer cloth - 4 -->
+          <div class="summer-cloth-4" id="france-summer-cloth-4"></div>
+          <!-- Summer cloth - 5 -->
+          <div class="summer-cloth-5" id="france-summer-cloth-5"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Country - France & Season - Summer - Food Items -->
+    <div class="france-summer-season-food" id="france-summer-season-food-list">
+      <div class="france-summer-season-food-collection">
+        <h2>Food Suggestions</h2>
+        <div class="france-summer-season-food-items">
+          <!-- Summer Food - 1 -->
+          <div class="summer-food-1" id="france-summer-food-1"></div>
+          <!-- Summer Food - 2 -->
+          <div class="summer-food-2" id="france-summer-food-2"></div>
+          <!-- Summer Food - 3 -->
+          <div class="summer-food-3" id="france-summer-food-3"></div>
+          <!-- Summer Food - 4 -->
+          <div class="summer-food-4" id="france-summer-food-4"></div>
+          <!-- Summer Food - 5 -->
+          <div class="summer-food-5" id="france-summer-food-5"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Country - France & Season - Winter - Cloth Items -->
+    <div class="france-winter-season-cloth" id="france-winter-season-wear">
+      <h2>Winter</h2>
+      <ul>
+        <li>December to February</li>
+        <li>
+          Cold temperatures, especially in northern and mountainous regions;
+          averages range from 0°C to 10°C (32°F to 50°F).
+        </li>
+        <li>Snow is common in the Alps.</li>
+      </ul>
+      <div class="france-winter-season-collection">
+        <h2>Winter Categories</h2>
+        <div class="france-summer-season-categories">
+          <!-- Winter cloth - 1 -->
+          <div class="winter-cloth-1" id="france-winter-cloth-1"></div>
+          <!-- Winter cloth - 2 -->
+          <div class="winter-cloth-2" id="france-winter-cloth-2"></div>
+          <!-- Winter cloth - 3 -->
+          <div class="winter-cloth-3" id="france-winter-cloth-3"></div>
+          <!-- Winter cloth - 4 -->
+          <div class="winter-cloth-4" id="france-winter-cloth-4"></div>
+          <!-- Winter cloth - 5 -->
+          <div class="winter-cloth-5" id="france-winter-cloth-5"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Country - France & Season - Winter - Food Items -->
+    <div class="france-winter-season-food" id="france-winter-season-food-list">
+      <div class="france-winter-season-food-collection">
+        <h2>Food Suggestions</h2>
+        <div class="france-summer-season-food-items">
+          <!-- Winter Food - 1 -->
+          <div class="winter-food-1" id="france-winter-food-1"></div>
+          <!-- Winter Food - 2 -->
+          <div class="winter-food-2" id="france-winter-food-2"></div>
+          <!-- Winter Food - 3 -->
+          <div class="winter-food-3" id="france-winter-food-3"></div>
+          <!-- Winter Food - 4 -->
+          <div class="winter-food-4" id="france-winter-food-4"></div>
+          <!-- Winter Food - 5 -->
+          <div class="winter-food-5" id="france-winter-food-5"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Germany -->
+
+    <!-- Country - Germany & Season - Fall - Cloth Items -->
+    <div class="germany-fall-season-cloth" id="germany-fall-season-wear">
+      <h2>Fall</h2>
+      <ul>
+        <li>September to November</li>
+        <li>
+          Cool temperatures; early fall is pleasant (10°C to 20°C / 50°F to
+          68°F), but it gets colder by November.
+        </li>
+        <li>Beautiful autumn foliage.</li>
+      </ul>
+      <div class="germany-fall-season-collection">
+        <h2>Fall Categories</h2>
+        <div class="germany-fall-season-categories">
+          <!-- Fall cloth - 1 -->
+          <div class="fall-cloth-1" id="germany-fall-cloth-1"></div>
+          <!-- Fall cloth - 2 -->
+          <div class="fall-cloth-2" id="germany-fall-cloth-2"></div>
+          <!-- Fall cloth - 3 -->
+          <div class="fall-cloth-3" id="germany-fall-cloth-3"></div>
+          <!-- Fall cloth - 4 -->
+          <div class="fall-cloth-4" id="germany-fall-cloth-4"></div>
+          <!-- Fall cloth - 5 -->
+          <div class="fall-cloth-5" id="germany-fall-cloth-5"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Country - Germany & Season - Fall - Food Items -->
+    <div class="germany-fall-season-food" id="germany-fall-season-food-list">
+      <div class="germany-fall-season-food-collection">
+        <h2>Food Suggestions</h2>
+        <div class="france-fall-season-food-items">
+          <!-- Fall Food - 1 -->
+          <div class="fall-food-1" id="germany-fall-food-1"></div>
+          <!-- Fall Food - 2 -->
+          <div class="fall-food-2" id="germany-fall-food-2"></div>
+          <!-- Fall Food - 3 -->
+          <div class="fall-food-3" id="germany-fall-food-3"></div>
+          <!-- Fall Food - 4 -->
+          <div class="fall-food-4" id="germany-fall-food-4"></div>
+          <!-- Fall Food - 5 -->
+          <div class="fall-food-5" id="germany-fall-food-5"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Country - Germany & Season - Spring - Cloth Items -->
+    <div class="germany-spring-season-cloth" id="germany-spring-season-wear">
+      <h2>Spring</h2>
+      <ul>
+        <li>March to May</li>
+        <li>Mild temperatures ranging from 5°C to 15°C (41°F to 59°F).</li>
+        <li>Rain showers are common, especially in April.</li>
+      </ul>
+      <div class="germany-spring-season-collection">
+        <h2>Spring Categories</h2>
+        <div class="germany-spring-season-categories">
+          <!-- Spring cloth - 1 -->
+          <div class="spring-cloth-1" id="germany-spring-cloth-1"></div>
+          <!-- Spring cloth - 2 -->
+          <div class="spring-cloth-2" id="germany-spring-cloth-2"></div>
+          <!-- Spring cloth - 3 -->
+          <div class="spring-cloth-3" id="germany-spring-cloth-3"></div>
+          <!-- Spring cloth - 4 -->
+          <div class="spring-cloth-4" id="germany-spring-cloth-4"></div>
+          <!-- Spring cloth - 5 -->
+          <div class="spring-cloth-5" id="germany-spring-cloth-5"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Country - Germany & Season - Spring - Food Items -->
+    <div
+      class="germany-spring-season-food"
+      id="germany-spring-season-food-list"
+    >
+      <div class="germany-spring-season-food-collection">
+        <h2>Food Suggestions</h2>
+        <div class="germany-spring-season-food-items">
+          <!-- Spring Food - 1 -->
+          <div class="spring-food-1" id="germany-spring-food-1"></div>
+          <!-- Spring Food - 2 -->
+          <div class="spring-food-2" id="germany-spring-food-2"></div>
+          <!-- Spring Food - 3 -->
+          <div class="spring-food-3" id="germany-spring-food-3"></div>
+          <!-- Spring Food - 4 -->
+          <div class="spring-food-4" id="germany-spring-food-4"></div>
+          <!-- Spring Food - 5 -->
+          <div class="spring-food-5" id="germany-spring-food-5"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Country - Germany & Season - Summer - Cloth Items -->
+    <div class="germany-summer-season-cloth" id="germany-summer-season-wear">
+      <h2>Summer</h2>
+      <ul>
+        <li>June to August</li>
+        <li>
+          Warm and pleasant, with temperatures typically ranging from 20°C to
+          30°C (68°F to 86°F).
+        </li>
+        <li>Heatwaves can occur, especially in July.</li>
+      </ul>
+      <div class="germany-summer-season-collection">
+        <h2>Summer Categories</h2>
+        <div class="germany-summer-season-categories">
+          <!-- Summer cloth - 1 -->
+          <div class="summer-cloth-1" id="germany-summer-cloth-1"></div>
+          <!-- Summer cloth - 2 -->
+          <div class="summer-cloth-2" id="germany-summer-cloth-2"></div>
+          <!-- Summer cloth - 3 -->
+          <div class="summer-cloth-3" id="germany-summer-cloth-3"></div>
+          <!-- Summer cloth - 4 -->
+          <div class="summer-cloth-4" id="germany-summer-cloth-4"></div>
+          <!-- Summer cloth - 5 -->
+          <div class="summer-cloth-5" id="germany-summer-cloth-5"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Country - Germany & Season - Summer - Food Items -->
+    <div
+      class="germany-summer-season-food"
+      id="germany-summer-season-food-list"
+    >
+      <div class="germany-summer-season-food-collection">
+        <h2>Food Suggestions</h2>
+        <div class="germany-summer-season-food-items">
+          <!-- Summer Food - 1 -->
+          <div class="summer-food-1" id="germany-summer-food-1"></div>
+          <!-- Summer Food - 2 -->
+          <div class="summer-food-2" id="germany-summer-food-2"></div>
+          <!-- Summer Food - 3 -->
+          <div class="summer-food-3" id="germany-summer-food-3"></div>
+          <!-- Summer Food - 4 -->
+          <div class="summer-food-4" id="germany-summer-food-4"></div>
+          <!-- Summer Food - 5 -->
+          <div class="summer-food-5" id="germany-summer-food-5"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Country - Germany & Season - Winter - Cloth Items -->
+    <div class="germany-winter-season-cloth" id="germany-winter-season-wear">
+      <h2>Winter</h2>
+      <ul>
+        <li>December to February</li>
+        <li>Cold temperatures, ranging from -5°C to 5°C (23°F to 41°F).</li>
+        <li>Snow is common, especially in the southern regions.</li>
+      </ul>
+      <div class="germany-winter-season-collection">
+        <h2>Winter Categories</h2>
+        <div class="germany-summer-season-categories">
+          <!-- Winter cloth - 1 -->
+          <div class="winter-cloth-1" id="germany-winter-cloth-1"></div>
+          <!-- Winter cloth - 2 -->
+          <div class="winter-cloth-2" id="germany-winter-cloth-2"></div>
+          <!-- Winter cloth - 3 -->
+          <div class="winter-cloth-3" id="germany-winter-cloth-3"></div>
+          <!-- Winter cloth - 4 -->
+          <div class="winter-cloth-4" id="germany-winter-cloth-4"></div>
+          <!-- Winter cloth - 5 -->
+          <div class="winter-cloth-5" id="germany-winter-cloth-5"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Country - Germany & Season - Winter - Food Items -->
+    <div
+      class="germany-winter-season-food"
+      id="germany-winter-season-food-list"
+    >
+      <div class="germany-winter-season-food-collection">
+        <h2>Food Suggestions</h2>
+        <div class="germany-summer-season-food-items">
+          <!-- Winter Food - 1 -->
+          <div class="winter-food-1" id="germany-winter-food-1"></div>
+          <!-- Winter Food - 2 -->
+          <div class="winter-food-2" id="germany-winter-food-2"></div>
+          <!-- Winter Food - 3 -->
+          <div class="winter-food-3" id="germany-winter-food-3"></div>
+          <!-- Winter Food - 4 -->
+          <div class="winter-food-4" id="germany-winter-food-4"></div>
+          <!-- Winter Food - 5 -->
+          <div class="winter-food-5" id="germany-winter-food-5"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- USA -->
+
+    <!-- Country - USA & Season - Fall - Cloth Items -->
+    <div class="usa-fall-season-cloth" id="usa-fall-season-wear">
+      <h2>Fall</h2>
+      <ul>
+        <li>September to November</li>
+        <li>
+          Cool to mild temperatures, typically ranging from 10°C to 20°C (50°F
+          to 68°F).
+        </li>
+        <li>Beautiful autumn foliage, especially in New England.</li>
+      </ul>
+      <div class="usa-fall-season-collection">
+        <h2>Fall Categories</h2>
+        <div class="usa-fall-season-categories">
+          <!-- Fall cloth - 1 -->
+          <div class="fall-cloth-1" id="usa-fall-cloth-1"></div>
+          <!-- Fall cloth - 2 -->
+          <div class="fall-cloth-2" id="usa-fall-cloth-2"></div>
+          <!-- Fall cloth - 3 -->
+          <div class="fall-cloth-3" id="usa-fall-cloth-3"></div>
+          <!-- Fall cloth - 4 -->
+          <div class="fall-cloth-4" id="usa-fall-cloth-4"></div>
+          <!-- Fall cloth - 5 -->
+          <div class="fall-cloth-5" id="usa-fall-cloth-5"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Country - USA & Season - Fall - Food Items -->
+    <div class="usa-fall-season-food" id="usa-fall-season-food-list">
+      <div class="usa-fall-season-food-collection">
+        <h2>Food Suggestions</h2>
+        <div class="france-fall-season-food-items">
+          <!-- Fall Food - 1 -->
+          <div class="fall-food-1" id="usa-fall-food-1"></div>
+          <!-- Fall Food - 2 -->
+          <div class="fall-food-2" id="usa-fall-food-2"></div>
+          <!-- Fall Food - 3 -->
+          <div class="fall-food-3" id="usa-fall-food-3"></div>
+          <!-- Fall Food - 4 -->
+          <div class="fall-food-4" id="usa-fall-food-4"></div>
+          <!-- Fall Food - 5 -->
+          <div class="fall-food-5" id="usa-fall-food-5"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Country - USA & Season - Spring - Cloth Items -->
+    <div class="usa-spring-season-cloth" id="usa-spring-season-wear">
+      <h2>Spring</h2>
+      <ul>
+        <li>March to May</li>
+        <li>Mild temperatures ranging from 5°C to 20°C (41°F to 68°F).</li>
+        <li>Rain is common in many areas, especially in April.</li>
+      </ul>
+      <div class="usa-spring-season-collection">
+        <h2>Spring Categories</h2>
+        <div class="usa-spring-season-categories">
+          <!-- Spring cloth - 1 -->
+          <div class="spring-cloth-1" id="usa-spring-cloth-1"></div>
+          <!-- Spring cloth - 2 -->
+          <div class="spring-cloth-2" id="usa-spring-cloth-2"></div>
+          <!-- Spring cloth - 3 -->
+          <div class="spring-cloth-3" id="usa-spring-cloth-3"></div>
+          <!-- Spring cloth - 4 -->
+          <div class="spring-cloth-4" id="usa-spring-cloth-4"></div>
+          <!-- Spring cloth - 5 -->
+          <div class="spring-cloth-5" id="usa-spring-cloth-5"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Country - USA & Season - Spring - Food Items -->
+    <div class="usa-spring-season-food" id="usa-spring-season-food-list">
+      <div class="usa-spring-season-food-collection">
+        <h2>Food Suggestions</h2>
+        <div class="usa-spring-season-food-items">
+          <!-- Spring Food - 1 -->
+          <div class="spring-food-1" id="usa-spring-food-1"></div>
+          <!-- Spring Food - 2 -->
+          <div class="spring-food-2" id="usa-spring-food-2"></div>
+          <!-- Spring Food - 3 -->
+          <div class="spring-food-3" id="usa-spring-food-3"></div>
+          <!-- Spring Food - 4 -->
+          <div class="spring-food-4" id="usa-spring-food-4"></div>
+          <!-- Spring Food - 5 -->
+          <div class="spring-food-5" id="usa-spring-food-5"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Country - USA & Season - Summer - Cloth Items -->
+    <div class="usa-summer-season-cloth" id="usa-summer-season-wear">
+      <h2>Summer</h2>
+      <ul>
+        <li>June to August</li>
+        <li>
+          Warm and hot, with temperatures typically ranging from 20°C to 35°C
+          (68°F to 95°F).
+        </li>
+        <li>Humidity can be high in many regions, especially the South.</li>
+      </ul>
+      <div class="usa-summer-season-collection">
+        <h2>Summer Categories</h2>
+        <div class="usa-summer-season-categories">
+          <!-- Summer cloth - 1 -->
+          <div class="summer-cloth-1" id="usa-summer-cloth-1"></div>
+          <!-- Summer cloth - 2 -->
+          <div class="summer-cloth-2" id="usa-summer-cloth-2"></div>
+          <!-- Summer cloth - 3 -->
+          <div class="summer-cloth-3" id="usa-summer-cloth-3"></div>
+          <!-- Summer cloth - 4 -->
+          <div class="summer-cloth-4" id="usa-summer-cloth-4"></div>
+          <!-- Summer cloth - 5 -->
+          <div class="summer-cloth-5" id="usa-summer-cloth-5"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Country - USA & Season - Summer - Food Items -->
+    <div class="usa-summer-season-food" id="usa-summer-season-food-list">
+      <div class="usa-summer-season-food-collection">
+        <h2>Food Suggestions</h2>
+        <div class="usa-summer-season-food-items">
+          <!-- Summer Food - 1 -->
+          <div class="summer-food-1" id="usa-summer-food-1"></div>
+          <!-- Summer Food - 2 -->
+          <div class="summer-food-2" id="usa-summer-food-2"></div>
+          <!-- Summer Food - 3 -->
+          <div class="summer-food-3" id="usa-summer-food-3"></div>
+          <!-- Summer Food - 4 -->
+          <div class="summer-food-4" id="usa-summer-food-4"></div>
+          <!-- Summer Food - 5 -->
+          <div class="summer-food-5" id="usa-summer-food-5"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Country - USA & Season - Winter - Cloth Items -->
+    <div class="usa-winter-season-cloth" id="usa-winter-season-wear">
+      <h2>Winter</h2>
+      <ul>
+        <li>December to February</li>
+        <li>
+          Varies widely by region; northern states can see temperatures from
+          -10°C to 5°C (14°F to 41°F), while southern states are milder (5°C to
+          15°C / 41°F to 59°F).
+        </li>
+        <li>Snow is common in the northern and mountainous regions.</li>
+      </ul>
+      <div class="usa-winter-season-collection">
+        <h2>Winter Categories</h2>
+        <div class="usa-summer-season-categories">
+          <!-- Winter cloth - 1 -->
+          <div class="winter-cloth-1" id="usa-winter-cloth-1"></div>
+          <!-- Winter cloth - 2 -->
+          <div class="winter-cloth-2" id="usa-winter-cloth-2"></div>
+          <!-- Winter cloth - 3 -->
+          <div class="winter-cloth-3" id="usa-winter-cloth-3"></div>
+          <!-- Winter cloth - 4 -->
+          <div class="winter-cloth-4" id="usa-winter-cloth-4"></div>
+          <!-- Winter cloth - 5 -->
+          <div class="winter-cloth-5" id="usa-winter-cloth-5"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Country - USA & Season - Winter - Food Items -->
+    <div class="usa-winter-season-food" id="usa-winter-season-food-list">
+      <div class="usa-winter-season-food-collection">
+        <h2>Food Suggestions</h2>
+        <div class="usa-summer-season-food-items">
+          <!-- Winter Food - 1 -->
+          <div class="winter-food-1" id="usa-winter-food-1"></div>
+          <!-- Winter Food - 2 -->
+          <div class="winter-food-2" id="usa-winter-food-2"></div>
+          <!-- Winter Food - 3 -->
+          <div class="winter-food-3" id="usa-winter-food-3"></div>
+          <!-- Winter Food - 4 -->
+          <div class="winter-food-4" id="usa-winter-food-4"></div>
+          <!-- Winter Food - 5 -->
+          <div class="winter-food-5" id="usa-winter-food-5"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Item selected Button -->
+    <button id="get-item-button">Get Selected Item</button>
+
+    <!-- Display selected item -->
+    <div id="selected-product">
+      <h2>Selected Product</h2>
+      <div id="display-item"></div>
+    </div>
+
+    <!-- External linking of JS -->
+    <script type="module" src="js/index.js"></script>
+  </body>
+</html>
