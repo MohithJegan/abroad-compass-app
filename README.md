@@ -35,4 +35,4 @@ abroad-compass-app/
 ```
 
 ## 🔗 Deployment
-Live demo available at:[https://mohithjegan.io/abroad-compass-app](https://mohithjegan.github.io/abroad-compass-app/)
+Live demo available at : [https://mohithjegan.io/abroad-compass-app](https://mohithjegan.github.io/abroad-compass-app/)
