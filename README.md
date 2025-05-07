@@ -32,6 +32,7 @@ abroad-compass-app/
 ├── index.html          # Main HTML file
 ├── style.css           # Styling file
 └── script.js           # JavaScript logic
+```
 
 ## 🔗 Deployment
 Live demo available at:[https://mohithjegan.io/abroad-compass-app](https://mohithjegan.github.io/abroad-compass-app/)
